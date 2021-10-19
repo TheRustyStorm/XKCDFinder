@@ -22,4 +22,4 @@ Person: the 8.8.8.8 DNS server.
 Running this code for the first time populates the JSON file, so run it before the meeting or else you'll have to wait like 3 minutes.
 
 # License
-IDK man do whatever you want with it, it's an example from the fantastic [GO Programming Language](https://www.gopl.io) book which i heartly recommend to anyone trying to learn Go.
+IDK man do whatever you want with it, it's an exercise from the fantastic [GO Programming Language](https://www.gopl.io) book which i heartly recommend to anyone trying to learn Go.
