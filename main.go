@@ -21,12 +21,12 @@ func getXKCDInfo(index uint) XKCDComic {
 	var url = fmt.Sprintf("https://xkcd.com/%d/info.0.json", index)
 	resp, err := http.Get(url)
 	if err != nil {
-		fmt.Println("Error : %s", err)
+		fmt.Printf("Error : %s\n", err)
 	}
 	var result XKCDComic
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 		resp.Body.Close()
-		fmt.Println("Error : %s", err)
+		fmt.Printlf("Error : %s\n", err)
 	}
 	return result
 }
